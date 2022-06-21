@@ -1,0 +1,13 @@
+﻿ 
+ 
+ 
+        Bir Eticaret Sitesinin ALTYAPISINI OLUŞTURUNUZ
+               Product => Id,name,price,stock,adddate,updatedate,deletedate
+               Category => Id,name,description,adddate,updatedate,deletedate
+               User => Id,name,surname,username,password,email,adddate,updatedate,deletedate => Member,Admin
+               Brand => Id,name,description,adddate,updatedate,deletedate
+               Kayıt,Listele gibi fonksiyonlar tanımlayınız.
+
+           Category-Brand 1-N
+           Brand-Product  1-N
+
